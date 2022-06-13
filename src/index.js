@@ -153,8 +153,8 @@ async function main() {
   }
 
   async function poll_plurks(plurks, client) {
-    if (plurks.length() === 0) { return }
-    
+    if (plurks.length === 0) { return }
+
     const p = plurks[0]
     
     const plurk = await client.request("/APP/Timeline/plurkAdd", {
