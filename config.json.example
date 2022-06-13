@@ -1,0 +1,27 @@
+{
+    "consumerKey" : "plurk_consumer_key",
+    "consumerSecret" : "plurk_consumer_secret",
+    "token" : "plurk_request_token",
+    "tokenSecret" : "plurk_request_token_secret",
+    "urls": {
+        "youtube": [
+            "yotube_channel_id_1_here",
+            "yotube_channel_id_2_here",
+            "..."
+        ],
+        "twitter": [
+            "twitter_id_1_here",
+            "twitter_id_2_here",
+            "..."
+        ],
+        "instagram": [
+            "instagram_id_1_here",
+            "instagram_id_2_here",
+            "..."
+        ]
+    },
+    "keys": {
+        "yt": "youtube_api_key_here",
+        "tw": "twitter_access_token_here"
+    }
+}
